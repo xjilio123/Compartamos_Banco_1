@@ -1,0 +1,521 @@
+order_id;customer_id;product_id;order_date;quantity;unit_price;discount_applied;total_amount_usd;order_status;payment_method;shipping_country;store_flavor
+50001;1022;2005;10/01/2026;2;250;20;400;completed;Credit Card;Peru;Online
+50002;1002;2001;15/02/2026;1;1200;10;1080;pending;Cash;PERÃ;Physical Store
+50003;1054;2011;22/03/2026;-3;120;5;-342;cancelled;TRANSFER;Chile;ONLINE
+50004;1088;2003;5/04/2026;1;-450;0;-450;COMPLETED;credit card;Mexico;Online
+50005;1011;2044;18/05/2026;0;55;5;0;pending;Cash;mexico;Physical Store
+50006;1025;2007;10/01/2026;2;35;125;-17.5;completed;Credit Card;Colombia;Online
+50001;1022;2005;10/01/2026;2;250;20;400;completed;Credit Card;Peru;Online
+NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+"""50007""";1077;2015;15/02/2026;5;19.99;0;99.95;pending;Cash;Chile;Online
+50008;1009;2022;22/03/2026;1;380;10;342;cancelled;TRANSFER;Ecuador;Physical Store
+50009;1042;2035;5/04/2026;2;105;0;210;completed;Credit Card;PERU;Online
+50010;1060;2012;18/05/2026;1;299;8;275.08;COMPLETED;Cash;CHILE;Online
+50011;1015;2026;10/01/2026;3;49.99;15;127.47;pending;Credit Card;Mexico;ONLINE
+50012;1091;2002;15/02/2026;4;25.5;0;102;completed;TRANSFER;Peru;Physical Store
+50013;1033;2039;22/03/2026;1;24.99;0;24.99;cancelled;Cash;Colombia;Online
+50014;1005;2017;5/04/2026;2;85;5;161.5;completed;credit card;Ecuador;Physical Store
+50015;1072;2009;18/05/2026;1;199.99;12.5;174.99;pending;TRANSFER;Peru;Online
+50016;1044;2030;10/01/2026;1;299.99;10;269.99;COMPLETED;Cash;Mexico;Physical Store
+50017;1028;2021;15/02/2026;1;850;0;850;completed;Credit Card;Chile;Online
+50018;1099;2014;22/03/2026;1;550;25;412.5;pending;Cash;Ecuador;Physical Store
+50019;1047;2024;5/04/2026;2;150;10;270;pending;Cash;PERÃ;Physical Store
+50020;1082;2033;18/05/2026;1;45;0;45;completed;Credit Card;Peru;Online
+50021;1003;2005;10/01/2026;1;250;20;200;cancelled;TRANSFER;Chile;ONLINE
+50022;1065;2041;15/02/2026;3;85;0;255;completed;Cash;Ecuador;Physical Store
+50023;1012;2018;22/03/2026;10;12.5;50;62.5;pending;credit card;Mexico;Online
+50024;1051;2016;5/04/2026;1;210;10;189;COMPLETED;TRANSFER;Ecuador;Online
+50025;1039;2013;18/05/2026;2;60;0;120;completed;Credit Card;Peru;Physical Store
+50026;1001;2029;10/01/2026;4;25;5;95;pending;Cash;Peru;Online
+50027;1074;2038;15/02/2026;1;35;15;29.75;cancelled;TRANSFER;Chile;Physical Store
+50028;1095;2022;22/03/2026;2;380;0;760;completed;Credit Card;Mexico;ONLINE
+50029;1021;2002;5/04/2026;1;25.5;0;25.5;COMPLETED;Cash;PERÃ;Online
+50030;1058;2008;18/05/2026;2;75;10;135;pending;credit card;Colombia;Physical Store
+50031;1014;2010;10/01/2026;1;45;0;45;completed;TRANSFER;Chile;Online
+50032;1069;2036;15/02/2026;3;29.99;10;80.97;cancelled;Cash;Mexico;Physical Store
+50019;1047;2024;5/04/2026;2;150;10;270;pending;Cash;PERÃ;Physical Store
+50033;1036;2001;22/03/2026;1;1200;10;1080;completed;Credit Card;Mexico;Online
+NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+50034;1089;2040;5/04/2026;-1;39;8;-35.88;pending;TRANSFER;Ecuador;Online
+50035;1007;2006;18/05/2026;1;180;0;180;COMPLETED;Cash;Peru;Physical Store
+50036;1050;2031;10/01/2026;2;110;0;220;completed;Credit Card;Colombia;Online
+"""50037""";1093;2042;15/02/2026;1;210;20;168;pending;Cash;Chile;Online
+50038;1004;2020;22/03/2026;5;140;15;595;cancelled;credit card;Mexico;Physical Store
+50039;1086;2014;5/04/2026;1;550;25;412.5;completed;TRANSFER;Mexico;Online
+50040;1027;2004;18/05/2026;1;89.99;15;76.49;COMPLETED;Cash;Peru;Physical Store
+50041;1061;2001;10/01/2026;1;1200;10;1080;pending;Credit Card;Colombia;Online
+50042;1045;2018;15/02/2026;2;12.5;0;25;completed;Cash;Ecuador;Physical Store
+50043;1010;2005;22/03/2026;1;250;20;200;pending;TRANSFER;Peru;Online
+50044;1083;2012;5/04/2026;1;299;8;275.08;cancelled;Credit Card;Mexico;ONLINE
+50045;1019;2021;18/05/2026;1;850;10;765;COMPLETED;Cash;Colombia;Physical Store
+50046;1056;2034;10/01/2026;4;15.5;5;58.9;pending;credit card;Colombia;Online
+50047;1008;2002;15/02/2026;2;25.5;0;51;completed;TRANSFER;CHILE;Physical Store
+50048;1073;2023;22/03/2026;1;28;5;26.6;pending;Cash;Colombia;Online
+50043;1010;2005;22/03/2026;1;250;20;200;pending;TRANSFER;Peru;Online
+50049;1029;2015;5/04/2026;3;19.99;0;59.97;completed;Credit Card;Chile;ONLINE
+50050;1094;2009;18/05/2026;1;199.99;12.5;174.99;COMPLETED;Cash;Ecuador;Physical Store
+NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+50051;1064;2036;10/01/2026;2;29.99;10;53.98;pending;credit card;Chile;Online
+50052;1006;2044;15/02/2026;1;55;5;52.25;cancelled;TRANSFER;Ecuador;Physical Store
+"""50053""";1024;2017;22/03/2026;2;85;5;161.5;completed;Cash;Colombia;Online
+50054;1080;2022;5/04/2026;1;380;0;380;pending;Credit Card;Ecuador;Online
+50055;1035;2001;18/05/2026;1;1200;10;1080;COMPLETED;TRANSFER;Chile;Physical Store
+50056;1059;2030;10/01/2026;1;299.99;10;269.99;completed;Cash;Mexico;ONLINE
+50057;1013;2011;15/02/2026;0;120;5;0;pending;credit card;Chile;Physical Store
+50058;1076;2026;22/03/2026;3;49.99;15;127.47;cancelled;TRANSFER;CHILE;Online
+50059;1046;2013;5/04/2026;2;60;0;120;completed;Credit Card;PERÃ;Physical Store
+50060;1092;2041;18/05/2026;1;85;0;85;pending;Cash;Chile;Online
+50061;1031;2004;10/01/2026;1;89.99;15;76.49;COMPLETED;credit card;Ecuador;Online
+50062;1085;2010;15/02/2026;2;45;0;90;completed;TRANSFER;Peru;Physical Store
+50063;1055;2038;22/03/2026;1;35;15;29.75;pending;Cash;Chile;Online
+50064;1026;2014;5/04/2026;1;550;25;412.5;cancelled;Credit Card;Peru;Physical Store
+50065;1002;2025;18/05/2026;1;115;0;115;pending;Cash;Peru;Physical Store
+50066;1079;2001;10/01/2026;2;1200;10;2160;completed;Credit Card;Colombia;Online
+50067;1018;2032;15/02/2026;1;65;12;57.2;cancelled;TRANSFER;Chile;Physical Store
+50068;1040;2007;22/03/2026;3;35;0;25000;completed;Cash;CHILE;Online
+50069;1067;2019;5/04/2026;1;95;0;95;pending;credit card;Colombia;Physical Store
+50070;1023;2011;18/05/2026;1;120;5;114;COMPLETED;TRANSFER;Chile;Online
+NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+50071;1081;2037;10/01/2026;2;42;0;84;pending;Cash;Peru;Physical Store
+50072;1052;2002;15/02/2026;1;25.5;0;25.5;completed;Credit Card;PERÃ;Online
+50073;1017;2028;22/03/2026;1;130;0;130;cancelled;TRANSFER;Mexico;Physical Store
+50074;1097;2016;5/04/2026;2;210;10;378;COMPLETED;Cash;Chile;Online
+50066;1079;2001;10/01/2026;2;1200;10;2160;completed;Credit Card;Colombia;Online
+"""50075""";1032;2041;18/05/2026;1;85;0;85;pending;credit card;Peru;Online
+50076;1006;2005;10/01/2026;1;250;20;200;completed;TRANSFER;Ecuador;Physical Store
+50077;1084;2022;15/02/2026;1;380;0;380;cancelled;Cash;Chile;Online
+50078;1041;2010;22/03/2026;-2;45;0;-90;pending;Credit Card;Peru;Physical Store
+50079;1062;2034;5/04/2026;4;15.5;5;58.9;COMPLETED;TRANSFER;Peru;Online
+50080;1015;2009;18/05/2026;1;199.99;12.5;174.99;completed;Cash;Ecuador;Physical Store
+50081;1070;2026;10/01/2026;2;49.99;15;84.98;pending;credit card;Chile;Online
+50082;1020;2013;15/02/2026;1;60;0;60;cancelled;TRANSFER;Ecuador;Physical Store
+50083;1098;2004;22/03/2026;1;89.99;15;76.49;completed;Credit Card;Colombia;Online
+50084;1034;2044;5/04/2026;1;55;5;52.25;COMPLETED;Cash;Mexico;Physical Store
+50085;1066;2030;18/05/2026;1;299.99;10;269.99;pending;TRANSFER;PERÃ;Online
+50086;1009;2021;10/01/2026;1;850;0;850;completed;Credit Card;Mexico;Physical Store
+50087;1055;2017;15/02/2026;2;85;5;161.5;pending;Cash;Chile;Online
+50088;1043;2005;22/03/2026;2;250;20;400;completed;TRANSFER;Chile;Online
+50089;1100;2011;5/04/2026;1;120;5;114;pending;Cash;Peru;Physical Store
+50090;1025;2044;18/05/2026;1;55;5;52.25;cancelled;Credit Card;Ecuador;Online
+50091;1004;2038;10/01/2026;1;35;15;29.75;COMPLETED;Cash;Mexico;Physical Store
+50092;1075;2014;15/02/2026;1;550;25;412.5;pending;credit card;Peru;Online
+NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+50093;1053;2033;22/03/2026;1;45;0;45;completed;TRANSFER;PERÃ;Physical Store
+50094;1016;2029;5/04/2026;2;25;5;47.5;cancelled;Cash;Peru;Online
+50095;1087;2022;18/05/2026;1;380;0;380;completed;Credit Card;Chile;Physical Store
+50096;1038;2010;10/01/2026;3;45;0;135;pending;TRANSFER;Peru;Online
+50089;1100;2011;5/04/2026;1;120;5;114;pending;Cash;Peru;Physical Store
+"""50097""";1063;2002;15/02/2026;2;25.5;0;51;COMPLETED;Credit Card;Mexico;Online
+50098;1009;2016;22/03/2026;1;210;10;189;completed;Cash;Mexico;Physical Store
+50099;1096;2026;5/04/2026;1;49.99;15;42.49;pending;credit card;Mexico;Online
+50100;1030;2001;18/05/2026;5;1200;10;31500;completed;TRANSFER;Colombia;Online
+50101;1049;2018;10/01/2026;2;12.5;50;12.5;cancelled;Cash;Chile;Physical Store
+50102;1071;2015;15/02/2026;1;19.99;0;19.99;COMPLETED;Credit Card;Peru;Online
+50103;1013;2040;22/03/2026;1;39;8;35.88;pending;TRANSFER;Chile;Physical Store
+50104;1085;2030;5/04/2026;1;299.99;10;269.99;completed;Cash;Peru;Online
+50105;1022;2021;18/05/2026;0;850;10;0;pending;credit card;Peru;Physical Store
+50106;1064;2004;10/01/2026;2;89.99;15;152.98;COMPLETED;TRANSFER;Chile;Online
+50107;1090;2012;15/02/2026;1;299;8;275.08;completed;Credit Card;Peru;Physical Store
+50108;1035;2036;22/03/2026;3;29.99;10;80.97;cancelled;Cash;Chile;Online
+50109;1057;2009;5/04/2026;-4;199.99;12.5;-699.96;pending;TRANSFER;Ecuador;Physical Store
+50110;1012;2023;18/05/2026;1;28;5;26.6;completed;Credit Card;Mexico;Online
+50111;1005;2041;5/04/2026;1;85;0;85;pending;Cash;Peru;Physical Store
+50112;1083;2002;18/05/2026;2;25.5;0;51;completed;Credit Card;Mexico;Online
+50113;1022;2030;10/01/2026;1;299.99;10;269.99;cancelled;TRANSFER;PERÃ;ONLINE
+50114;1060;2015;15/02/2026;3;19.99;0;59.97;completed;Cash;Chile;Physical Store
+50115;1014;2022;22/03/2026;1;380;0;380;pending;credit card;Colombia;Online
+50116;1095;2010;5/04/2026;2;45;0;90;COMPLETED;TRANSFER;Ecuador;Online
+NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+50117;1034;2013;18/05/2026;1;60;0;60;completed;Credit Card;Peru;Physical Store
+50118;1076;2034;10/01/2026;5;15.5;5;73.63;pending;Cash;Chile;Online
+50112;1083;2002;18/05/2026;2;25.5;0;51;completed;Credit Card;Mexico;Online
+50119;1009;2005;15/02/2026;1;250;20;200;cancelled;TRANSFER;Mexico;Physical Store
+"""50120""";1056;2007;22/03/2026;2;35;0;70;completed;Cash;Colombia;Online
+50121;1028;2044;5/04/2026;1;55;5;52.25;COMPLETED;credit card;CHILE;Online
+50122;1099;2036;18/05/2026;2;29.99;10;53.98;pending;TRANSFER;Ecuador;Physical Store
+50123;1042;2009;10/01/2026;1;199.99;12.5;174.99;completed;Credit Card;Peru;Online
+50124;1066;2017;15/02/2026;1;85;5;80.75;cancelled;Cash;PERÃ;Physical Store
+50125;1011;2026;22/03/2026;0;49.99;15;0;pending;credit card;Mexico;Online
+50126;1085;2012;5/04/2026;1;299;8;275.08;COMPLETED;TRANSFER;Peru;Online
+50127;1031;2018;18/05/2026;4;12.5;50;25;completed;Cash;Ecuador;Physical Store
+50128;1092;2040;10/01/2026;1;39;8;35.88;pending;Credit Card;Chile;Online
+50129;1055;2032;15/02/2026;2;65;12;114.4;cancelled;TRANSFER;Chile;Physical Store
+50130;1026;2021;22/03/2026;-1;850;0;-850;pending;Cash;Peru;Online
+50131;1070;2001;5/04/2026;1;1200;10;1080;completed;credit card;Chile;Online
+50132;1018;2038;18/05/2026;1;35;15;29.75;COMPLETED;TRANSFER;CHILE;Physical Store
+50133;1040;2011;10/01/2026;2;120;5;228;pending;Credit Card;Chile;Online
+50134;1088;2005;15/02/2026;1;250;20;200;completed;Credit Card;Colombia;Physical Store
+50135;1012;2014;22/03/2026;2;550;25;825;pending;Cash;Mexico;Online
+50136;1044;2033;5/04/2026;1;45;0;45;cancelled;TRANSFER;Chile;Physical Store
+50137;1001;2022;18/05/2026;1;380;10;342;COMPLETED;credit card;Peru;Online
+50138;1074;2010;10/01/2026;3;45;0;135;pending;TRANSFER;Ecuador;Online
+NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+50139;1025;2001;15/02/2026;1;1200;10;1080;completed;Cash;Peru;Physical Store
+50140;1095;2029;22/03/2026;2;25;5;47.5;pending;credit card;CHILE;Online
+50135;1012;2014;22/03/2026;2;550;25;825;pending;Cash;Mexico;Online
+50141;1056;2012;5/04/2026;1;299;8;275.08;cancelled;TRANSFER;Colombia;Physical Store
+"""50142""";1021;2036;18/05/2026;2;29.99;10;53.98;completed;Credit Card;Mexico;Online
+50143;1080;2015;10/01/2026;5;19.99;0;99.95;COMPLETED;Cash;Ecuador;Physical Store
+50144;1039;2041;15/02/2026;1;85;0;85;pending;credit card;Peru;Online
+50145;1006;2009;22/03/2026;1;199.99;12.5;174.99;completed;TRANSFER;Ecuador;Physical Store
+50146;1062;2030;5/04/2026;1;299.99;10;269.99;cancelled;Cash;PERÃ;Online
+50147;1015;2024;18/05/2026;2;150;10;270;COMPLETED;Credit Card;Mexico;Physical Store
+50148;1070;2017;10/01/2026;2;85;5;161.5;pending;TRANSFER;Chile;Online
+50149;1032;2026;15/02/2026;3;49.99;15;127.47;completed;Cash;Peru;Online
+50150;1098;2002;22/03/2026;4;25.5;0;102;pending;credit card;Colombia;Physical Store
+50151;1041;2034;5/04/2026;10;15.5;5;147.25;COMPLETED;TRANSFER;Peru;Online
+50152;1009;2007;18/05/2026;1;35;0;-50;pending;Credit Card;Mexico;Physical Store
+50153;1087;2011;10/01/2026;0;120;5;0;completed;Cash;Chile;Online
+50154;1053;2044;15/02/2026;1;55;5;52.25;cancelled;credit card;PERÃ;Physical Store
+50155;1020;2018;22/03/2026;-2;12.5;50;-12.5;COMPLETED;TRANSFER;Ecuador;Online
+50156;1067;2013;5/04/2026;2;60;0;120;pending;Cash;Colombia;Physical Store
+50157;1011;2005;18/05/2026;1;250;20;200;completed;Credit Card;Peru;Online
+50158;1064;2041;10/01/2026;2;85;0;170;pending;Cash;Chile;Physical Store
+50159;1005;2022;15/02/2026;1;380;10;342;cancelled;TRANSFER;colombia;Online
+50160;1094;2013;22/03/2026;1;60;0;60;COMPLETED;credit card;Ecuador;Physical Store
+50161;1022;2036;5/04/2026;3;29.99;10;80.97;pending;TRANSFER;PERÃ;Online
+NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+50162;1042;2034;18/05/2026;4;15.5;5;58.9;completed;Cash;Mexico;Physical Store
+50163;1019;2009;10/01/2026;1;199.99;12.5;174.99;cancelled;Credit Card;Colombia;Online
+50159;1005;2022;15/02/2026;1;380;10;342;cancelled;TRANSFER;colombia;Online
+50164;1081;2002;22/03/2026;2;25.5;0;51;completed;Cash;Peru;Online
+"""50165""";1056;2012;5/04/2026;1;299;8;275.08;pending;credit card;Colombia;Physical Store
+50166;1013;2030;18/05/2026;1;299.99;10;269.99;COMPLETED;TRANSFER;Chile;Online
+50167;1073;2018;10/01/2026;5;12.5;50;31.25;pending;Cash;Colombia;Physical Store
+50168;1032;2044;15/02/2026;1;55;5;52.25;completed;Credit Card;PERU;Online
+50169;1091;2026;22/03/2026;2;49.99;15;84.98;cancelled;TRANSFER;Peru;Physical Store
+50170;1004;2014;5/04/2026;1;550;25;412.5;COMPLETED;Cash;mexico;Online
+50171;1069;2017;18/05/2026;2;85;5;161.5;pending;credit card;Mexico;Physical Store
+50172;1026;2040;10/01/2026;-3;39;8;-107.64;completed;TRANSFER;Peru;Online
+50173;1085;2015;15/02/2026;1;19.99;0;19.99;pending;Cash;Ecuador;Physical Store
+50174;1038;2021;22/03/2026;1;850;10;765;cancelled;Credit Card;Peru;Online
+50175;1077;2001;5/04/2026;1;1200;10;1080;COMPLETED;TRANSFER;Chile;Physical Store
+50176;1050;2010;18/05/2026;0;45;0;0;pending;Cash;Colombia;Online
+50177;1098;2024;10/01/2026;2;150;10;270;completed;credit card;Colombia;Physical Store
+50178;1014;2038;15/02/2026;1;35;15;29.75;pending;TRANSFER;Chile;Online
+50179;1061;2007;22/03/2026;1;35;0;-35;cancelled;Credit Card;Colombia;Physical Store
+50180;1002;2016;5/04/2026;1;210;10;189;completed;Cash;Peru;Online
+50181;1045;2022;18/05/2026;2;380;0;760;pending;Credit Card;Ecuador;Physical Store
+50182;1073;2005;10/01/2026;1;250;20;200;cancelled;TRANSFER;Colombia;Online
+50183;1011;2012;15/02/2026;1;299;8;275.08;COMPLETED;Cash;PERÃ;Physical Store
+50184;1089;2034;22/03/2026;4;15.5;5;58.9;pending;credit card;Chile;Online
+NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+50185;1028;2001;5/04/2026;1;1200;10;1080;completed;TRANSFER;Mexico;Online
+50186;1054;2041;18/05/2026;2;85;0;170;cancelled;Cash;Chile;Physical Store
+50181;1045;2022;18/05/2026;2;380;0;760;pending;Credit Card;Ecuador;Physical Store
+50187;1092;2015;10/01/2026;3;19.99;0;59.97;completed;Credit Card;Peru;Online
+"""50188""";1035;2020;15/02/2026;1;140;15;119;pending;Cash;Chile;Physical Store
+50189;1066;2009;22/03/2026;1;199.99;12.5;174.99;COMPLETED;credit card;PERÃ;Online
+50190;1006;2030;5/04/2026;1;299.99;10;269.99;pending;TRANSFER;Ecuador;Physical Store
+50191;1047;2026;18/05/2026;2;49.99;15;84.98;completed;Cash;Peru;Online
+50192;1083;2039;10/01/2026;1;24.99;0;24.99;cancelled;Credit Card;Mexico;Physical Store
+50193;1020;2044;15/02/2026;1;55;5;52.25;COMPLETED;TRANSFER;Ecuador;Online
+50194;1071;2036;22/03/2026;3;29.99;10;80.97;pending;Cash;Peru;Physical Store
+50195;1014;2002;5/04/2026;2;25.5;0;51;completed;credit card;Colombia;Online
+50196;1059;2011;18/05/2026;-2;120;5;-228;pending;TRANSFER;Chile;Physical Store
+50197;1097;2017;10/01/2026;1;85;5;80.75;cancelled;Credit Card;Chile;Online
+50198;1032;2023;15/02/2026;1;28;0;-28;completed;Cash;Peru;Physical Store
+50199;1009;2013;22/03/2026;0;60;0;0;COMPLETED;credit card;Mexico;Online
+50200;1085;2038;5/04/2026;1;35;15;29.75;pending;TRANSFER;Peru;Physical Store
+50201;1050;2033;18/05/2026;2;45;0;90;completed;Cash;Colombia;Online
+50202;1076;2021;10/01/2026;1;850;10;765;cancelled;Credit Card;CHILE;Physical Store
+50203;1022;2005;15/02/2026;2;250;20;400;completed;Credit Card;Peru;Online
+50204;1002;2011;22/03/2026;1;120;5;114;pending;Cash;PERÃ;Physical Store
+50205;1094;2041;5/04/2026;3;85;0;255;cancelled;TRANSFER;Ecuador;Online
+50206;1015;2002;18/05/2026;1;25.5;0;25.5;COMPLETED;credit card;Mexico;Physical Store
+50207;1064;2029;10/01/2026;4;25;5;95;pending;TRANSFER;Chile;Online
+NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+50208;1039;2014;15/02/2026;1;550;25;412.5;completed;Cash;Peru;Online
+50209;1081;2030;22/03/2026;1;299.99;10;269.99;cancelled;Credit Card;Peru;Physical Store
+50204;1002;2011;22/03/2026;1;120;5;114;pending;Cash;PERÃ;Physical Store
+50210;1056;2034;5/04/2026;5;15.5;5;73.63;completed;TRANSFER;Colombia;Online
+"""50211""";1012;2017;18/05/2026;2;85;5;161.5;pending;Cash;Mexico;Physical Store
+50212;1070;2009;10/01/2026;1;199.99;12.5;174.99;COMPLETED;credit card;Chile;Online
+50213;1033;2022;15/02/2026;1;380;0;380;pending;TRANSFER;Colombia;Physical Store
+50214;1005;2013;22/03/2026;2;60;0;120;completed;Credit Card;Ecuador;Online
+50215;1091;2044;5/04/2026;1;55;5;52.25;cancelled;Cash;Peru;Physical Store
+50216;1044;2036;18/05/2026;3;29.99;10;80.97;COMPLETED;credit card;Mexico;Online
+50217;1026;2018;10/01/2026;-1;12.5;50;-6.25;pending;TRANSFER;Peru;Physical Store
+50218;1085;2026;15/02/2026;2;49.99;15;84.98;completed;Cash;Peru;Online
+50219;1050;2040;22/03/2026;1;39;8;35.88;pending;Credit Card;Colombia;Physical Store
+50220;1076;2015;5/04/2026;0;19.99;0;0;cancelled;TRANSFER;CHILE;Online
+50221;1014;2001;18/05/2026;1;1200;10;-1200;completed;Cash;Chile;Physical Store
+50222;1061;2033;10/01/2026;1;45;0;45;COMPLETED;credit card;Colombia;Online
+50223;1018;2021;15/02/2026;1;850;10;765;completed;TRANSFER;CHILE;Physical Store
+50224;1040;2010;22/03/2026;2;45;0;90;pending;Credit Card;Chile;Online
+50225;1067;2023;5/04/2026;1;28;5;26.6;cancelled;Cash;Colombia;Physical Store
+50226;1009;2015;15/02/2026;2;19.99;0;39.98;completed;Cash;Mexico;Physical Store
+50227;1044;2001;22/03/2026;1;1200;10;1080;pending;Credit Card;Mexico;Online
+50228;1083;2041;5/04/2026;1;85;0;85;cancelled;TRANSFER;Mexico;Physical Store
+50229;1020;2024;18/05/2026;2;150;10;270;COMPLETED;Cash;Ecuador;Online
+50230;1055;2036;10/01/2026;3;29.99;10;80.97;pending;credit card;Chile;Online
+NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+50231;1100;2010;15/02/2026;1;45;0;45;completed;TRANSFER;Peru;Physical Store
+50232;1025;2013;22/03/2026;2;60;0;120;pending;Cash;Peru;Online
+50227;1044;2001;22/03/2026;1;1200;10;1080;pending;Credit Card;Mexico;Online
+50233;1090;2030;5/04/2026;1;299.99;10;269.99;cancelled;Credit Card;Peru;Physical Store
+"""50234""";1031;2002;18/05/2026;2;25.5;0;51;completed;Cash;Ecuador;Online
+50235;1057;2022;10/01/2026;1;380;0;380;COMPLETED;credit card;Ecuador;Online
+50236;1012;2009;15/02/2026;1;199.99;12.5;174.99;pending;TRANSFER;Mexico;Physical Store
+50237;1096;2042;22/03/2026;1;210;20;168;completed;Cash;Mexico;Online
+50238;1005;2038;5/04/2026;-2;35;15;-59.5;cancelled;Credit Card;Ecuador;Physical Store
+50239;1073;2014;18/05/2026;1;550;25;412.5;COMPLETED;TRANSFER;Colombia;Online
+50240;1049;2033;10/01/2026;4;45;0;180;pending;Cash;Chile;Physical Store
+50241;1086;2018;15/02/2026;1;12.5;50;6.25;completed;credit card;Mexico;Online
+50242;1022;2012;22/03/2026;1;299;8;275.08;pending;TRANSFER;Peru;Physical Store
+50243;1063;2004;5/04/2026;0;89.99;15;0;cancelled;Cash;Mexico;Online
+50244;1038;2031;18/05/2026;1;110;0;-110;completed;Credit Card;Peru;Physical Store
+50245;1094;2016;10/01/2026;2;210;10;378;COMPLETED;TRANSFER;Ecuador;Online
+50246;1017;2020;15/02/2026;1;140;15;119;completed;Cash;Mexico;Physical Store
+50247;1075;2035;22/03/2026;1;105;0;105;pending;Credit Card;Peru;Online
+50248;1041;2026;5/04/2026;3;49.99;15;127.47;cancelled;TRANSFER;PERU;Physical Store
+50249;1003;2005;15/02/2026;2;250;20;400;completed;Credit Card;Chile;Online
+50250;1088;2041;22/03/2026;1;85;0;85;pending;Cash;Colombia;Physical Store
+50251;1012;2022;5/04/2026;1;380;10;342;cancelled;TRANSFER;Mexico;Online
+50252;1094;2013;18/05/2026;1;60;0;60;COMPLETED;credit card;Ecuador;Physical Store
+50253;1065;2036;10/01/2026;3;29.99;10;80.97;pending;TRANSFER;Ecuador;Online
+NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+50254;1019;2034;15/02/2026;4;15.5;5;58.9;completed;Cash;Colombia;Physical Store
+50255;1051;2009;22/03/2026;1;199.99;12.5;174.99;cancelled;Credit Card;Ecuador;Online
+50250;1088;2041;22/03/2026;1;85;0;85;pending;Cash;Colombia;Physical Store
+50256;1039;2002;5/04/2026;2;25.5;0;51;completed;TRANSFER;Ecuador;Online
+"""50257""";1021;2030;18/05/2026;1;299.99;10;269.99;pending;Cash;Mexico;Physical Store
+50258;1058;2018;10/01/2026;5;12.5;50;31.25;COMPLETED;credit card;Colombia;Online
+50259;1014;2044;15/02/2023;1;55;5;52.25;pending;TRANSFER;Chile;Physical Store
+50260;1069;2026;22/03/2026;2;49.99;15;84.98;completed;Credit Card;Mexico;Online
+50261;1026;2014;5/04/2026;-2;550;25;-825;cancelled;Cash;Peru;Physical Store
+50262;1085;2017;18/05/2026;2;85;5;161.5;COMPLETED;credit card;Peru;Online
+50263;1038;2040;10/01/2026;1;39;8;35.88;pending;TRANSFER;Peru;Physical Store
+50264;1055;2015;15/02/2026;0;19.99;0;0;completed;Cash;Chile;Online
+50265;1028;2021;22/03/2026;1;850;10;-850;pending;Credit Card;Mexico;Physical Store
+50266;1054;2010;5/04/2026;2;45;0;90;COMPLETED;TRANSFER;Chile;Online
+50267;1001;2038;18/05/2026;1;35;15;29.75;completed;Cash;Peru;Physical Store
+50268;1095;2007;10/01/2026;1;35;0;35;pending;Credit Card;CHILE;Online
+50269;1056;2011;15/02/2026;2;120;5;228;cancelled;TRANSFER;Colombia;Physical Store
+50270;1013;2029;22/03/2026;4;25;5;95;completed;Cash;Chile;Online
+50271;1077;2001;5/04/2026;1;1200;10;1080;pending;credit card;Chile;Physical Store
+50272;1042;2014;10/01/2026;1;550;25;412.5;completed;TRANSFER;Mexico;Online
+50273;1008;2033;15/02/2026;2;45;0;90;pending;Cash;Chile;Physical Store
+50274;1085;2002;22/03/2026;1;25.5;0;25.5;cancelled;Credit Card;Peru;Online
+50275;1031;2041;5/04/2026;3;85;0;255;COMPLETED;credit card;Ecuador;Physical Store
+50276;1092;2009;18/05/2026;1;199.99;12.5;174.99;pending;TRANSFER;PERÃ;Online
+NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+50277;1053;2012;10/01/2026;1;299;8;275.08;completed;Cash;Peru;Physical Store
+50278;1016;2036;15/02/2026;2;29.99;10;53.98;pending;Credit Card;Peru;Online
+50273;1008;2033;15/02/2026;2;45;0;90;pending;Cash;Chile;Physical Store
+50279;1070;2015;22/03/2026;5;19.99;0;99.95;cancelled;TRANSFER;CHILE;Online
+"""50280""";1046;2022;5/04/2026;1;380;10;342;completed;Cash;Mexico;Physical Store
+50281;1089;2030;18/05/2026;1;299.99;10;269.99;COMPLETED;credit card;Ecuador;Online
+50282;1004;2005;10/01/2026;-1;250;20;-200;pending;TRANSFER;mexico;Online
+50283;1075;2026;15/02/2026;2;49.99;15;84.98;completed;Credit Card;Peru;Physical Store
+50284;1022;2034;22/03/2026;4;15.5;5;58.9;cancelled;Cash;Peru;Online
+50285;1063;2010;5/04/2026;0;45;0;0;COMPLETED;credit card;Mexico;Physical Store
+50286;1038;2013;18/05/2026;1;60;0;60;pending;TRANSFER;PERÃ;Online
+50287;1099;2018;10/01/2026;2;12.5;50;-25;completed;Cash;Ecuador;Physical Store
+50288;1012;2044;15/02/2026;1;55;5;52.25;pending;Credit Card;Mexico;Online
+50289;1051;2001;22/03/2026;1;1200;10;1080;COMPLETED;TRANSFER;Ecuador;Online
+50290;1079;2035;5/04/2026;1;105;0;105;completed;Cash;Colombia;Physical Store
+50291;1007;2021;18/05/2026;1;850;10;765;pending;credit card;Peru;Online
+50292;1066;2040;10/01/2026;1;39;8;35.88;cancelled;TRANSFER;PERÃ;Physical Store
+50293;1030;2017;15/02/2026;2;85;5;161.5;COMPLETED;Cash;Colombia;Online
+50294;1015;2023;22/03/2026;1;28;5;26.6;pending;Credit Card;Ecuador;Physical Store
+50295;1024;2005;5/04/2026;2;250;20;400;completed;Credit Card;Colombia;Online
+50296;1082;2011;18/05/2026;1;120;5;114;pending;Cash;Peru;Physical Store
+50297;1003;2041;10/01/2026;3;85;0;255;cancelled;TRANSFER;Chile;Online
+50298;1065;2002;15/02/2026;1;25.5;0;25.5;COMPLETED;credit card;Ecuador;Physical Store
+50299;1019;2029;22/03/2026;4;25;5;95;pending;TRANSFER;colombia;Online
+NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+50300;1051;2014;5/04/2026;1;550;25;412.5;completed;Cash;Ecuador;Online
+50301;1039;2030;18/05/2026;1;299.99;10;269.99;pending;Credit Card;Peru;Physical Store
+50296;1082;2011;18/05/2026;1;120;5;114;pending;Cash;Peru;Physical Store
+50302;1001;2034;10/01/2026;5;15.5;5;73.63;cancelled;TRANSFER;PERU;Online
+"""50303""";1074;2017;15/02/2026;2;85;5;161.5;completed;Cash;Chile;Physical Store
+50304;1095;2009;22/03/2026;1;199.99;12.5;174.99;COMPLETED;credit card;Mexico;ONLINE
+50305;1021;2022;5/04/2026;1;380;0;380;pending;TRANSFER;PERÃ;Online
+50306;1058;2013;18/05/2026;2;60;0;120;completed;Credit Card;Colombia;Physical Store
+50307;1014;2044;10/01/2026;-2;55;5;-104.5;cancelled;Cash;Chile;Online
+50308;1069;2036;15/02/2026;3;29.99;10;80.97;COMPLETED;credit card;Mexico;Physical Store
+50309;1026;2026;22/03/2026;2;49.99;15;84.98;pending;TRANSFER;Peru;Online
+50310;1085;2010;5/04/2026;0;45;0;0;completed;Cash;Peru;Online
+50311;1038;2018;18/05/2026;4;12.5;50;-50;pending;Credit Card;Peru;Physical Store
+50312;1055;2015;10/01/2026;1;19.99;0;19.99;COMPLETED;TRANSFER;Chile;ONLINE
+50313;1028;2040;15/02/2026;1;39;8;35.88;completed;Cash;Mexico;Online
+50314;1050;2012;22/03/2026;1;299;8;275.08;pending;credit card;Colombia;Physical Store
+50315;1076;2035;5/04/2026;1;105;0;105;cancelled;TRANSFER;CHILE;Online
+50316;1061;2023;18/05/2026;1;28;5;26.6;COMPLETED;Cash;Colombia;Physical Store
+50317;1018;2031;10/01/2026;1;110;0;110;pending;Credit Card;CHILE;Online
+50295;1024;2005;5/04/2026;2;250;20;400;completed;Credit Card;Colombia;Online
+50296;1082;2011;18/05/2026;1;120;5;114;pending;Cash;Peru;Physical Store
+50297;1003;2041;10/01/2026;3;85;0;255;cancelled;TRANSFER;Chile;Online
+50298;1065;2002;15/02/2026;1;25.5;0;25.5;COMPLETED;credit card;Ecuador;Physical Store
+50299;1019;2029;22/03/2026;4;25;5;95;pending;TRANSFER;colombia;Online
+NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+50300;1051;2014;5/04/2026;1;550;25;412.5;completed;Cash;Ecuador;Online
+50301;1039;2030;18/05/2026;1;299.99;10;269.99;pending;Credit Card;Peru;Physical Store
+50296;1082;2011;18/05/2026;1;120;5;114;pending;Cash;Peru;Physical Store
+50302;1001;2034;10/01/2026;5;15.5;5;73.63;cancelled;TRANSFER;PERU;Online
+"""50303""";1074;2017;15/02/2026;2;85;5;161.5;completed;Cash;Chile;Physical Store
+50304;1095;2009;22/03/2026;1;199.99;12.5;174.99;COMPLETED;credit card;Mexico;ONLINE
+50305;1021;2022;5/04/2026;1;380;0;380;pending;TRANSFER;PERÃ;Online
+50306;1058;2013;18/05/2026;2;60;0;120;completed;Credit Card;Colombia;Physical Store
+50307;1014;2044;10/01/2026;-2;55;5;-104.5;cancelled;Cash;Chile;Online
+50308;1069;2036;15/02/2026;3;29.99;10;80.97;COMPLETED;credit card;Mexico;Physical Store
+50309;1026;2026;22/03/2026;2;49.99;15;84.98;pending;TRANSFER;Peru;Online
+50310;1085;2010;5/04/2026;0;45;0;0;completed;Cash;Peru;Online
+50311;1038;2018;18/05/2026;4;12.5;50;-50;pending;Credit Card;Peru;Physical Store
+50312;1055;2015;10/01/2026;1;19.99;0;19.99;COMPLETED;TRANSFER;Chile;ONLINE
+50313;1028;2040;15/02/2026;1;39;8;35.88;completed;Cash;Mexico;Online
+50314;1050;2012;22/03/2026;1;299;8;275.08;pending;credit card;Colombia;Physical Store
+50315;1076;2035;5/04/2026;1;105;0;105;cancelled;TRANSFER;CHILE;Online
+50316;1061;2023;18/05/2026;1;28;5;26.6;COMPLETED;Cash;Colombia;Physical Store
+50317;1018;2031;10/01/2026;1;110;0;110;pending;Credit Card;CHILE;Online
+50341;1045;2004;15/02/2026;1;89.99;15;76.49;completed;Cash;Ecuador;Physical Store
+50342;1073;2022;22/03/2026;2;380;0;760;pending;Credit Card;Colombia;Online
+50343;1011;2013;5/04/2026;1;60;0;60;cancelled;TRANSFER;Peru;Physical Store
+50344;1089;2041;18/05/2026;1;85;0;85;COMPLETED;credit card;Chile;Online
+50345;1028;2010;10/01/2026;3;45;0;135;pending;TRANSFER;Mexico;Online
+NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+50346;1054;2018;15/02/2026;5;12.5;50;31.25;completed;Cash;Chile;Physical Store
+50347;1092;2044;22/03/2026;1;55;5;52.25;pending;Credit Card;PERÃ;Online
+50342;1073;2022;22/03/2026;2;380;0;760;pending;Credit Card;Colombia;Online
+50348;1006;2026;5/04/2026;2;49.99;15;84.98;cancelled;TRANSFER;Ecuador;Physical Store
+"""50349""";1047;2009;18/05/2026;1;199.99;12.5;174.99;completed;Cash;Peru;Online
+50350;1083;2021;10/01/2026;1;850;10;765;COMPLETED;credit card;Mexico;Physical Store
+50351;1020;2040;15/02/2026;-1;39;8;-35.88;pending;TRANSFER;Ecuador;Online
+50352;1055;2035;22/03/2026;1;105;0;105;completed;Credit Card;Chile;Physical Store
+50353;1014;2031;5/04/2026;1;110;0;110;cancelled;Cash;Colombia;Online
+50354;1069;2015;18/05/2026;4;19.99;0;79.96;COMPLETED;credit card;Mexico;Online
+50355;1026;2023;10/01/2026;0;28;5;0;pending;TRANSFER;Peru;Physical Store
+50356;1085;2017;15/02/2026;2;85;5;161.5;COMPLETED;Cash;Peru;Online
+50357;1038;2002;22/03/2026;3;25.5;0;76.5;completed;Credit Card;PERÃ;Physical Store
+50358;1050;2012;5/04/2026;1;299;8;-299;pending;TRANSFER;Colombia;Online
+50359;1076;2030;18/05/2026;1;299.99;10;269.99;cancelled;Credit Card;Chile;Physical Store
+50360;1061;2011;10/01/2026;2;120;5;228;COMPLETED;Cash;Colombia;Online
+50361;1018;2005;15/02/2026;1;250;20;200;completed;credit card;CHILE;Physical Store
+50362;1040;2042;22/03/2026;1;210;20;168;pending;TRANSFER;Chile;Online
+50363;1067;2038;5/04/2026;2;35;15;59.5;cancelled;Cash;Colombia;Physical Store
+50364;1009;2017;15/02/2026;1;85;5;80.75;completed;Credit Card;Mexico;Physical Store
+50365;1054;2001;22/03/2026;1;1200;10;1080;pending;Cash;Chile;Online
+50366;1012;2034;5/04/2026;2;15.5;5;29.45;cancelled;TRANSFER;Mexico;Physical Store
+50367;1091;2011;18/05/2026;1;120;5;114;COMPLETED;credit card;Peru;Online
+50368;1033;2026;10/01/2026;3;49.99;15;127.47;pending;TRANSFER;Colombia;Online
+NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+50369;1100;2022;15/02/2026;1;380;0;380;completed;Cash;Peru;Physical Store
+50370;1025;2009;22/03/2026;1;199.99;12.5;174.99;pending;Credit Card;Peru;Online
+50365;1054;2001;22/03/2026;1;1200;10;1080;pending;Cash;Chile;Online
+50371;1095;2040;5/04/2026;2;39;8;71.76;cancelled;TRANSFER;CHILE;Online
+"""50372""";1031;2013;18/05/2026;1;60;0;60;completed;Cash;Ecuador;Online
+50373;1057;2030;10/01/2026;1;299.99;10;269.99;COMPLETED;credit card;Ecuador;Physical Store
+50374;1005;2018;15/02/2026;-3;12.5;50;-18.75;pending;TRANSFER;Ecuador;Online
+50375;1073;2044;22/03/2026;1;55;5;52.25;completed;Cash;Colombia;Physical Store
+50376;1049;2010;5/04/2026;0;45;0;0;cancelled;Credit Card;Chile;Online
+50377;1086;2036;18/05/2026;1;29.99;10;-29.99;COMPLETED;TRANSFER;Mexico;Online
+50378;1022;2015;10/01/2026;4;19.99;0;79.96;pending;Cash;Peru;Physical Store
+50379;1063;2035;15/02/2026;1;105;0;105;completed;credit card;Mexico;Online
+50380;1038;2038;22/03/2026;2;35;15;59.5;pending;TRANSFER;PERÃ;Online
+50381;1094;2023;5/04/2026;1;28;5;26.6;COMPLETED;Credit Card;Ecuador;Physical Store
+50382;1017;2014;18/05/2026;1;550;25;412.5;completed;Cash;Mexico;Online
+50383;1075;2002;10/01/2026;2;25.5;0;51;pending;TRANSFER;Peru;Physical Store
+50384;1041;2021;15/02/2026;1;850;10;765;cancelled;Credit Card;PERU;Online
+50385;1009;2012;22/03/2026;1;299;8;275.08;COMPLETED;Cash;Mexico;Physical Store
+50386;1087;2004;5/04/2026;2;89.99;15;152.98;pending;credit card;Chile;Online
+50387;1022;2030;10/01/2026;1;299.99;10;269.99;completed;TRANSFER;Peru;ONLINE
+50388;1094;2015;15/02/2026;3;19.99;0;59.97;pending;Cash;Ecuador;Physical Store
+50389;1006;2022;22/03/2026;1;380;0;380;cancelled;Credit Card;PERÃ;Online
+50390;1047;2010;5/04/2026;2;45;0;90;COMPLETED;TRANSFER;Peru;Online
+50391;1083;2013;18/05/2026;1;60;0;60;pending;Cash;Mexico;Physical Store
+NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+50392;1020;2034;10/01/2026;4;15.5;5;58.9;completed;credit card;Ecuador;Online
+50393;1055;2002;15/02/2026;2;25.5;0;51;pending;TRANSFER;Chile;Physical Store
+50389;1006;2022;22/03/2026;1;380;0;380;cancelled;Credit Card;PERÃ;Online
+50394;1014;2044;5/04/2026;1;55;5;52.25;completed;Cash;Colombia;Online
+"""50395""";1069;2036;18/05/2026;3;29.99;10;80.97;pending;credit card;Mexico;Physical Store
+50396;1026;2026;10/01/2026;2;49.99;15;84.98;COMPLETED;TRANSFER;Peru;Online
+50397;1085;2012;15/02/2026;1;299;8;275.08;pending;Cash;Peru;Physical Store
+50398;1038;2035;22/03/2026;1;105;0;105;completed;Credit Card;PERÃ;Online
+50399;1050;2031;5/04/2026;-1;110;0;-110;cancelled;TRANSFER;Colombia;Physical Store
+50400;1076;2017;18/05/2026;2;85;5;161.5;COMPLETED;Cash;Chile;Online
+50401;1061;2040;10/01/2026;1;39;8;35.88;completed;credit card;Colombia;Online
+50402;1018;2014;15/02/2026;0;550;25;0;pending;TRANSFER;CHILE;Physical Store
+50403;1040;2023;22/03/2026;1;28;5;-28;cancelled;Credit Card;Chile;Online
+50404;1067;2021;5/04/2026;1;850;10;765;COMPLETED;Cash;Colombia;Physical Store
+50405;1009;2038;18/05/2026;2;35;15;59.5;completed;TRANSFER;Mexico;Online
+50406;1087;2011;10/01/2026;2;120;5;228;pending;Credit Card;Chile;Physical Store
+50407;1053;2005;15/02/2026;1;250;20;200;cancelled;Cash;PERÃ;Online
+50408;1016;2041;22/03/2026;1;85;0;85;COMPLETED;credit card;Peru;Physical Store
+50409;1070;2009;5/04/2026;1;199.99;12.5;174.99;pending;TRANSFER;Chile;Online
+50410;1024;2011;10/01/2026;2;120;5;228;completed;TRANSFER;Peru;Online
+50411;1002;2041;15/02/2026;1;85;0;85;pending;Cash;PERÃ;Physical Store
+50412;1088;2005;22/03/2026;1;250;20;200;cancelled;Credit Card;Mexico;Online
+50413;1011;2014;5/04/2026;2;550;25;825;COMPLETED;credit card;colombia;Physical Store
+50414;1056;2033;18/05/2026;1;45;0;45;pending;TRANSFER;Chile;Online
+NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+50415;1015;2002;10/01/2026;4;25.5;0;102;completed;Cash;Peru;Physical Store
+50416;1064;2029;15/02/2026;2;25;5;47.5;pending;Credit Card;Chile;Online
+50411;1002;2041;15/02/2026;1;85;0;85;pending;Cash;PERÃ;Physical Store
+50417;1039;2022;22/03/2026;1;380;10;342;cancelled;TRANSFER;Ecuador;Online
+"""50418""";1081;2010;5/04/2026;3;45;0;135;completed;Cash;Mexico;Physical Store
+50419;1070;2013;18/05/2026;1;60;0;60;COMPLETED;credit card;Chile;Online
+50420;1033;2044;10/01/2026;-2;55;5;-104.5;pending;TRANSFER;Colombia;Physical Store
+50421;1005;2036;15/02/2026;3;29.99;10;80.97;completed;Credit Card;Ecuador;Online
+50422;1091;2026;22/03/2026;2;49.99;15;84.98;cancelled;Cash;Peru;Physical Store
+50423;1044;2018;5/04/2026;0;12.5;50;0;COMPLETED;credit card;Mexico;Online
+50424;1026;2012;18/05/2026;1;299;8;-275.08;pending;TRANSFER;Peru;Physical Store
+50425;1085;2030;10/01/2026;1;299.99;10;269.99;completed;Cash;Peru;Online
+50426;1038;2017;15/02/2026;2;85;5;161.5;pending;Credit Card;PERÃ;Physical Store
+50427;1055;2015;22/03/2026;5;19.99;0;99.95;cancelled;TRANSFER;Chile;Online
+50428;1028;2040;5/04/2026;1;39;8;35.88;COMPLETED;Cash;Mexico;Physical Store
+50429;1054;2021;18/05/2026;1;850;10;765;completed;credit card;Chile;Online
+50430;1001;2038;10/01/2026;1;35;15;29.75;pending;TRANSFER;Peru;Physical Store
+50431;1095;2023;15/02/2026;1;28;5;26.6;cancelled;Credit Card;CHILE;Online
+50432;1050;2001;22/03/2026;1;1200;10;28900;COMPLETED;Cash;Colombia;Online
+50433;1022;2005;15/02/2026;2;250;20;400;completed;Credit Card;Peru;Online
+50434;1094;2041;22/03/2026;1;85;0;85;pending;Cash;Ecuador;Physical Store
+50435;1012;2022;5/04/2026;1;380;10;342;cancelled;TRANSFER;Mexico;Online
+50436;1091;2013;18/05/2026;1;60;0;60;COMPLETED;credit card;Peru;Physical Store
+50437;1064;2036;10/01/2026;3;29.99;10;80.97;pending;TRANSFER;Chile;Online
+NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+50438;1039;2034;15/02/2026;4;15.5;5;58.9;completed;Cash;Peru;Physical Store
+50439;1051;2009;22/03/2026;1;199.99;12.5;174.99;cancelled;Credit Card;Ecuador;Online
+50434;1094;2041;22/03/2026;1;85;0;85;pending;Cash;Ecuador;Physical Store
+50440;1006;2002;5/04/2026;2;25.5;0;51;completed;TRANSFER;Ecuador;Online
+"""50441""";1021;2030;18/05/2026;1;299.99;10;269.99;pending;Cash;Mexico;Physical Store
+50442;1058;2018;10/01/2026;5;12.5;50;31.25;COMPLETED;credit card;Colombia;Online
+50443;1014;2044;15/02/2026;1;55;5;52.25;pending;TRANSFER;Chile;Physical Store
+50444;1069;2026;22/03/2026;2;49.99;15;84.98;completed;Credit Card;Mexico;Online
+50445;1026;2014;5/04/2026;-1;550;25;-412.5;cancelled;Cash;Peru;Physical Store
+50446;1085;2017;18/05/2026;2;85;5;161.5;COMPLETED;credit card;Peru;Online
+50447;1038;2040;10/01/2026;1;39;8;35.88;pending;TRANSFER;Peru;Physical Store
+50448;1055;2015;15/02/2026;0;19.99;0;0;completed;Cash;Chile;Online
+50449;1028;2021;22/03/2026;1;850;10;-765;pending;Credit Card;Mexico;Physical Store
+50450;1054;2010;5/04/2026;2;45;0;90;COMPLETED;TRANSFER;Chile;Online
+50451;1001;2038;18/05/2026;1;35;15;29.75;completed;Cash;Peru;Physical Store
+50452;1095;2007;10/01/2026;1;35;0;35;pending;Credit Card;CHILE;Online
+50453;1056;2011;15/02/2026;2;120;5;228;cancelled;TRANSFER;Colombia;Physical Store
+50454;1013;2029;22/03/2026;4;25;5;95;completed;Cash;Chile;Online
+50455;1077;2001;5/04/2026;1;1200;10;1080;pending;credit card;Chile;Physical Store
+50456;1005;2012;15/02/2026;1;299;8;275.08;completed;Cash;Peru;Physical Store
+50457;1042;2026;22/03/2026;2;49.99;15;84.98;pending;Credit Card;Mexico;Online
+50458;1083;2005;5/04/2026;1;250;20;200;cancelled;TRANSFER;Chile;Physical Store
+50459;1020;2034;18/05/2026;4;15.5;5;58.9;COMPLETED;credit card;Ecuador;Online
+50460;1055;2018;10/01/2026;5;12.5;50;31.25;pending;TRANSFER;CHILE;Online
+NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL;NULL
+50461;1028;2044;15/02/2026;1;55;5;52.25;completed;Cash;Mexico;Physical Store
+50462;1050;2036;22/03/2026;3;29.99;10;80.97;pending;Credit Card;Colombia;Online
+50457;1042;2026;22/03/2026;2;49.99;15;84.98;pending;Credit Card;Mexico;Online
+50463;1076;2009;5/04/2026;1;199.99;12.5;174.99;cancelled;TRANSFER;Chile;Physical Store
+"""50464""";1061;2002;18/05/2026;2;25.5;0;51;completed;Cash;Colombia;Online
+50465;1018;2040;10/01/2026;1;39;8;35.88;COMPLETED;credit card;Chile;Online
+50466;1040;2030;15/02/2026;1;299.99;10;269.99;pending;TRANSFER;CHILE;Physical Store
+50467;1067;2015;22/03/2026;5;19.99;0;99.95;completed;Credit Card;Colombia;Online
+50468;1002;2041;5/04/2026;-2;85;0;-170;cancelled;Cash;PERÃ;Physical Store
+50469;1094;2038;18/05/2026;1;35;15;29.75;COMPLETED;credit card;Ecuador;Online
+50470;1015;2017;10/01/2026;2;85;5;161.5;pending;TRANSFER;Mexico;Online
+50471;1064;2023;15/02/2026;0;28;5;0;completed;Cash;Chile;Physical Store
+50472;1039;2022;22/03/2026;1;380;0;-380;pending;Credit Card;Peru;Online
+50473;1001;2014;5/04/2026;1;550;25;412.5;COMPLETED;TRANSFER;Peru;Physical Store
+50474;1095;2013;18/05/2026;2;60;0;120;completed;Cash;CHILE;Online
+50475;1021;2011;10/01/2026;1;1200;10;1080;pending;credit card;Mexico;Physical Store
+50476;1058;2021;15/02/2026;1;850;10;765;cancelled;TRANSFER;Colombia;Online
+50477;1014;2010;22/03/2026;2;45;0;90;COMPLETED;Cash;Chile;Physical Store
+50478;1069;2035;5/04/2026;1;105;0;105;pending;Credit Card;Mexico;Online
