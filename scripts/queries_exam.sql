@@ -216,3 +216,73 @@ SELECT
 INTO dbo.fact_producto
 FROM dbo.fact_orders
 GROUP BY product_id;
+
+-- ============================================================================
+-- FASE 5: EXAMEN DE CONSULTAS ANALÍTICAS Y ESTADÍSTICAS
+-- Base de Datos: SQL Server (Capa ANALYTICS / STAGE)
+-- ============================================================================
+
+-- ----------------------------------------------------------------------------
+-- P1. Los 3 clientes con mayor número de pedidos en el último trimestre disponible
+-- ----------------------------------------------------------------------------
+WITH RangoUltimoTrimestre AS (
+    -- Detectamos dinámicamente cuál es la fecha máxima en los datos y restamos 3 meses
+    SELECT 
+        MAX(order_date) AS fecha_maxima,
+        DATEADD(month, -3, MAX(order_date)) AS fecha_inicio_trimestre
+    FROM dbo.fact_orders
+)
+SELECT TOP 3
+    o.customer_id,
+    CONCAT(c.first_name, ' ', c.last_name) AS nombre_completo,
+    COUNT(o.order_id) AS cantidad_pedidos
+FROM dbo.fact_orders o
+INNER JOIN dbo.dim_cliente c ON o.customer_id = c.customer_id
+CROSS JOIN RangoUltimoTrimestre r
+WHERE o.order_date BETWEEN r.fecha_inicio_trimestre AND r.fecha_maxima
+GROUP BY o.customer_id, c.first_name, c.last_name
+ORDER BY cantidad_pedidos DESC;
+
+
+-- ----------------------------------------------------------------------------
+-- P2. Revenue mensual por categoría de producto (Ordenado de mayor a menor)
+-- ----------------------------------------------------------------------------
+SELECT 
+    YEAR(o.order_date) AS [año],
+    MONTH(o.order_date) AS mes,
+    p.category AS categoria,
+    CAST(SUM(o.total_amount_usd) AS DECIMAL(10,2)) AS revenue_total
+FROM dbo.fact_orders o
+INNER JOIN dbo.dim_producto p ON o.product_id = p.product_id
+GROUP BY YEAR(o.order_date), MONTH(o.order_date), p.category
+ORDER BY revenue_total DESC;
+
+
+-- ----------------------------------------------------------------------------
+-- P3. Detección de anomalías: Pedidos que superan 2 desviaciones estándar (Z-Score > 2)
+-- ----------------------------------------------------------------------------
+WITH EstadisticasGlobales AS (
+    -- Calculamos la media y la desviación estándar de la tabla de hechos
+    SELECT 
+        AVG(total_amount_usd) AS promedio_monto,
+        STDEV(total_amount_usd) AS desviacion_monto
+    FROM dbo.fact_orders
+),
+CalculoZScore AS (
+    SELECT 
+        o.order_id,
+        o.customer_id,
+        o.total_amount_usd,
+        -- Aplicación de la fórmula matemática del Z-Score
+        (o.total_amount_usd - eg.promedio_monto) / NULLIF(eg.desviacion_monto, 0) AS z_score
+    FROM dbo.fact_orders o
+    CROSS JOIN EstadisticasGlobales eg
+)
+SELECT 
+    order_id,
+    customer_id,
+    CAST(total_amount_usd AS DECIMAL(10,2)) AS total_amount_usd,
+    CAST(z_score AS DECIMAL(10,2)) AS z_score
+FROM CalculoZScore
+WHERE z_score > 2.0 -- Filtro estricto solicitado: Mayor a 2 desviaciones estándar
+ORDER BY z_score DESC;
