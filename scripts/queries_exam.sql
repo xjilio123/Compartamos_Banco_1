@@ -124,3 +124,95 @@ SELECT
 INTO dbo.fact_orders
 FROM PedidosProcesados
 WHERE indice_duplicado = 1;
+
+-- ============================================================================
+-- FASE 3: CAPA ANALYTICS (Tablas Finales y Métricas Agregadas)
+-- Base de Datos: SQL Server (T-SQL)
+-- ============================================================================
+
+-- ----------------------------------------------------------------------------
+-- 1. ESTRUCTURA: dim_cliente
+-- Documentación:
+--   - customer_id (INT, PK): Identificador único del cliente.
+--   - first_name (VARCHAR): Nombre del cliente en mayúsculas.
+--   - last_name (VARCHAR): Apellido del cliente en mayúsculas.
+-- ----------------------------------------------------------------------------
+IF OBJECT_ID('dbo.dim_cliente', 'U') IS NOT NULL DROP TABLE dbo.dim_cliente;
+
+SELECT 
+    customer_id,
+    first_name,
+    last_name,
+    GETDATE() AS fecha_carga_analytics
+INTO dbo.dim_cliente
+FROM dbo.dim_customers;
+
+
+-- ----------------------------------------------------------------------------
+-- 2. ESTRUCTURA: fact_cliente (Tablón con Métricas de Cliente)
+-- Documentación:
+--   - customer_id (INT, FK): Identificador único del cliente.
+--   - total_pedidos (INT): Cantidad total de órdenes realizadas.
+--   - total_unidades_compradas (INT): Suma de productos adquiridos.
+--   - total_gastado_usd (DECIMAL): Dinero total invertido (Neto con descuentos).
+--   - ticket_medio_usd (DECIMAL): Gasto promedio por orden de compra.
+-- ----------------------------------------------------------------------------
+IF OBJECT_ID('dbo.fact_cliente', 'U') IS NOT NULL DROP TABLE dbo.fact_cliente;
+
+SELECT 
+    customer_id,
+    COUNT(order_id) AS total_pedidos,
+    SUM(quantity) AS total_unidades_compradas,
+    CAST(SUM(total_amount_usd) AS DECIMAL(10,2)) AS total_gastado_usd,
+    CAST(AVG(total_amount_usd) AS DECIMAL(10,2)) AS ticket_medio_usd,
+    GETDATE() AS fecha_calculo_metrics
+INTO dbo.fact_cliente
+FROM dbo.fact_orders
+GROUP BY customer_id;
+
+
+-- ----------------------------------------------------------------------------
+-- 3. ESTRUCTURA: dim_producto
+-- Documentación:
+--   - product_id (INT, PK): Identificador único del producto.
+--   - product_name (VARCHAR): Nombre comercial del artículo.
+--   - category (VARCHAR): Categoría de negocio asignada.
+--   - price_usd (DECIMAL): Precio base oficial en dólares.
+--   - supplier (VARCHAR): Nombre del proveedor.
+-- ----------------------------------------------------------------------------
+IF OBJECT_ID('dbo.dim_producto', 'U') IS NOT NULL DROP TABLE dbo.dim_producto;
+
+SELECT 
+    product_id,
+    product_name,
+    category,
+    price_usd,
+    supplier,
+    GETDATE() AS fecha_carga_analytics
+INTO dbo.dim_producto
+FROM dbo.dim_products;
+
+
+-- ----------------------------------------------------------------------------
+-- 4. ESTRUCTURA: fact_producto (Tablón con Métricas de Producto)
+-- Documentación:
+--   - product_id (INT, FK): Identificador único del producto.
+--   - total_ordenes_solicitado (INT): Veces que el producto entró en un carrito.
+--   - unidades_totales_vendidas (INT): Volumen total vendido.
+--   - ingresos_brutos_usd (DECIMAL): Recaudación sin aplicar descuentos.
+--   - ingresos_netos_totales_usd (DECIMAL): Recaudación real final percibida.
+--   - descuento_promedio_aplicado (DECIMAL): Porcentaje medio de rebaja otorgado.
+-- ----------------------------------------------------------------------------
+IF OBJECT_ID('dbo.fact_producto', 'U') IS NOT NULL DROP TABLE dbo.fact_producto;
+
+SELECT 
+    product_id,
+    COUNT(order_id) AS total_ordenes_solicitado,
+    SUM(quantity) AS unidades_totales_vendidas,
+    CAST(SUM(quantity * unit_price) AS DECIMAL(10,2)) AS ingresos_brutos_usd,
+    CAST(SUM(total_amount_usd) AS DECIMAL(10,2)) AS ingresos_netos_totales_usd,
+    CAST(AVG(discount_applied) AS DECIMAL(5,2)) AS descuento_promedio_aplicado,
+    GETDATE() AS fecha_calculo_metrics
+INTO dbo.fact_producto
+FROM dbo.fact_orders
+GROUP BY product_id;
